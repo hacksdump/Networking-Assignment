@@ -1,0 +1,436 @@
+scenario1	1	0
+----------------- Static Environment Attribute Confirmations -----------------
+
+--------------------Name-------------------- --Source--- ------Value------
+ef                                           cmd line    Star-scenario1-DES-1
+force_posix_locale                           default     TRUE
+handle_exception                             default     TRUE
+handle_exception_extended                    default     TRUE
+mem_clear                                    default     0
+mem_opt.compact_pools                        default     TRUE
+mem_opt.pool_small_blocks                    default     TRUE
+mem_opt.grow_pool_planks                     default     TRUE
+mem_optimize                                 default     TRUE
+mem_shred                                    default     FALSE
+mod_dirs                                     env. file   C:\users\hmaurya\op_models,
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\lib",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\icons",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\images",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\include",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\images\\maps",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\configs",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\help",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\utilities",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\utilities\\3dnv",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\utilities\\tmm",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\utilities\\hla",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\utilities\\sitl",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\sys\\reports\\stylesheets",
+                                                         C:\users\hmaurya\op_admin\ace_logs,
+                                                         C:\users\hmaurya\op_admin\rmc\logs,
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\3dnv_examples",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\advisories",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\advisories\\Advisory_Logs",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\applications",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\atm",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\atv",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\base",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\bgp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\bridges",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\cyber",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\demands",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\dhcp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\eigrp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\ethcoax",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\ethernet",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\configs",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\configs\\baseline",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\configs\\baseline_no_unnum_links",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\configs\\with_areas_bad_abr",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\configs\\with_areas_broken",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\configs\\with_areas_good_abr",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\configs\\with_areas_good_summ",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\RIB",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\Security_Analysis",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\Security_Analysis\\Baseline",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\traffic",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\traffic\\one_time_period",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\traffic\\time_varying",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\example_networks\\web_reports",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\fc",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\fddi",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\frelay",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\gdc",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\h323",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\haipe",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\icons",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\igrp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\ike",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\include",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\inet",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\ip",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\ip\\ipv6_readiness",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\ip\\ipv6_readiness\\en_US",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\ip\\utilities",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\isis",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\jammers",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\l2tp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\lane",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\lapb",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\layer2_mss",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\legacy",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\links",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\llm",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\lte",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\mainframe",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\mainframe\\Excel",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\mainframe\\SAS",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\mainframe\\SAS\\MXG",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\mainframe\\SAS\\NeuMICS",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\manet",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\mobile_ip",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\mpls",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\msdp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\ospf",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\pnni",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\pricing",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\pricing\\utilities",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\pstn",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\rip",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\rohc",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\rrp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\rsvp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\rtp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\BMC",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\BMC\\nt",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\BMC\\unix",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\NetIQ",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\NetIQ\\4.0",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\NetIQ\\5.0",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\OpenView",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\OpenView\\nt",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\OpenView\\unix",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\servers\\agents\\Perfmon",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\sip",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\sna",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\srp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\tcp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\tdma",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\tpal",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\tr",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\traf_gen",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\tutorial_req",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\tutorial_req\\basic",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\tutorial_req\\basic\\traffic",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\tutorial_req\\modeler",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\umts",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\common",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\ctr",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\ctr\\des_profiles",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\ctr\\en_US",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\ctr\\ext",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\ctr\\profiles",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\design",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\design\\base",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\design\\igp_te",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\design\\lfa",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\design\\mpls",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\design\\mpls_qp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\design\\mpls_te",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\design\\pstn",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\design\\topo",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\device_creator",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\device_creator\\generic",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\device_creator\\vendor",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\flowan",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\flowan\\capplan",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\flowan\\failure_impact_analysis",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\flowan\\ipv6",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\flowan\\voip",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\groups",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\import",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\import\\ai",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\import\\csv",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\import\\csv\\config",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\import\\csv\\interface_naming_rules",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\import\\imex_dste",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\import\\rci",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\import\\vnes",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\inv",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\inv\\en_US",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\mcr",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\mcr\\en_US",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\netdiff",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\netdiff\\config_file_diff_css",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\netdoctor",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\netdoctor\\en_US",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\netmapper",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\netone",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\odb_vis",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\oms",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\oms\\bgp",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\oms\\ets",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\oms\\ets\\base",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\oms\\ets\\conn",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\oms\\peer",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\oms\\svc",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\osc",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\osc\\en_US",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\packet_analyzer",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\pnm",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\port_scan",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\udr",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\views",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\utilities\\vni",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\voice",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\web_reports",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\wimax",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\wireless",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\wireless\\smac",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\wireless\\wireless_wizard",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\wireless\\wrls_phy_mpath_data_files",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\wireless_lan",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\x25",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\xdsl",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\std\\zigbee",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\3Com",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Alcatel_Lucent",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Alteon",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\AMD",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\antenna_models",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Ascend",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Avici",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Bay_Networks",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Brocade",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Cabletron",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\CheckPoint",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Cisco_Systems",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Compaq",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Coyote_Point",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Dell",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Equipe",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Extreme",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\f5",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Fore_Systems",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Foundry_Networks",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Hewlett_Packard",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Huawei",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\IBM",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Intel",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Juniper_Networks",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Lucent",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\McData",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Nec",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\NET",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Newbridge",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Nokia",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Nortel",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Radware",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Sun",
+                                                         "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU\\17.5.A\\models\\vendor_models\\Xylan"
+tfile_dir_cache_file                         default     opnet_dir_cache
+tfile_dir_cache                              default     use
+noprompt                                     cmd line    TRUE
+opnet_dir                                    env. file   "Z:\\media\\hmaurya\\Windows\\Program Files\\Riverbed EDU"
+opnet_user_home                              shell var   C:\users\hmaurya
+preferences_default_save_location            env. file   Local
+verbose_session_log                          default     FALSE
+java_prog                                    config file "C:\\Program Files\\Riverbed EDU\\17.5.A\\jre7_modeler_ae\\JRE\\bin\\java.exe"
+java_prog64                                  default     java
+3dnv                                         default     FALSE
+3dnv.cleanup_at_the_end                      default     TRUE
+3dnv.fed_file_name                           default     <null>
+3dnv.federation_name                         default     OPNET_3DNV
+3dnv.history_file                            default     <null>
+3dnv.hla_standard                            default     "DOD 1.3"
+3dnv.initialization_delay                    default     1
+3dnv.mapping_argument                        default     <null>
+3dnv.mapping_library                         default     opnet_3dnv_default_mapping
+3dnv.max_request_rate                        default     0
+3dnv.rpr_fom_version                         default     1
+anim_attempts                                default     5
+anim_hist                                    default     <null>
+anim_host                                    default     localhost
+anim_port                                    default     0
+anim_timeout                                 default     3
+anim_view                                    env. file   FALSE
+antenna.spherical_model                      default     Mathematical
+attr_reqs_file                               default     <null>
+auto_disk_space_threshold                    default     1000
+automation_lock_max_wait_time                default     60
+beep_count_confirm                           default     1
+beep_count_error                             default     2
+bind_shobj_flags                             default     <null>
+bind_shobj_flags_32bit                       default     <null>
+bind_shobj_flags_64bit                       default     <null>
+bind_shobj_flags_devel                       default     /DEBUG
+bind_shobj_flags_optim                       default     <null>
+bind_shobj_libs                              default     <null>
+bind_shobj_libs_32bit                        default     <null>
+bind_shobj_libs_64bit                        default     <null>
+bind_shobj_libs_devel                        default     <null>
+bind_shobj_libs_optim                        default     <null>
+bind_shobj_prog                              default     bind_so_msvc
+check_newer_process_model_files              default     TRUE
+comp.no_fin_required_for_state_vars          default     FALSE
+comp_flags_32bit                             default     <null>
+comp_flags_64bit                             default     /GS-
+comp_flags_c++_specific                      default     <null>
+comp_flags_c_specific                        default     <null>
+comp_flags_common                            env. file   "/W3 /D_CRT_SECURE_NO_DEPRECATE /IZ:\\media\\hmaurya\\Windows\\PROG~FBU\\RIVE~5UZ\\17_5~KPE.A\\models\\std\\include"
+comp_flags_devel                             default     "/Z7 /Od"
+comp_flags_mt                                default     <null>
+comp_flags_optim                             default     "/Ox /Ob2 /DOPD_NO_DEBUG /DOPD_INLINE_KPS"
+comp_globals_export                          default     FALSE
+comp_object_files_without_source             default     allow_with_warning
+comp_per_process_errors                      default     TRUE
+comp_prog                                    default     comp_msvc
+comp_prog_cpp                                default     comp_msvc
+comp_trace_info                              env. file   kernel-based
+console_exit_pause                           default     FALSE
+cosim                                        default     <null>
+cosimulation_optimization_mode               default     none
+debug_mk                                     default     FALSE
+default_site_position_cache_time_granularity env. file   0
+des.log_severity_filter                      env. file   -1
+diag_enable                                  default     FALSE
+display_timezone_string                      default     FALSE
+duration                                     env. file   1800
+edit_lock_mode                               default     FALSE
+endsim_memstats                              default     FALSE
+etrace_diff                                  default     <null>
+etrace_dump                                  default     <null>
+etrace_end_time                              default     1e+100
+etrace_start_time                            default     0
+event_order_method                           default     strict
+event_speed_parameter                        default     100000
+file_read_abort_suppress                     default     FALSE
+format_event_ids_with_1000s_separator        default     TRUE
+format_ici_ids_with_1000s_separator          default     TRUE
+format_object_ids_with_1000s_separator       default     TRUE
+format_packet_ids_with_1000s_separator       default     TRUE
+format_process_ids_with_1000s_separator      default     TRUE
+fully_serialized_event_execution_ids         default     TRUE
+fully_serialized_ici_ids                     default     TRUE
+fully_serialized_packet_ids                  default     TRUE
+geocentric_model                             default     right_sphere
+invalid_link_notification                    default     TRUE
+kernel_type                                  env. file   optimized
+license_broker_host                          default     <null>
+license_broker_port                          default     <null>
+license_expiration_warning_interval          default     3
+license_group                                default     <null>
+license_http_proxy_password                  default     <not set>
+license_http_proxy_port                      default     80
+license_http_proxy_server                    default     <null>
+license_http_proxy_user                      default     <null>
+license_http_server                          default     license01.opnet.com
+license_http_use_proxy                       default     FALSE
+license_password                             default     <not set>
+license_port                                 default     port_a
+license_server                               default     localhost
+license_server_standalone                    default     FALSE
+license_server_standalone_diagnose           default     FALSE
+license_username                             default     <null>
+livelock_thresh                              default     8192
+log_endsim_perf                              env. file   TRUE
+log_file                                     env. file   Star-scenario1-DES-1
+log_time_precision                           default     12
+manage_loanable_licenses                     default     FALSE
+max_idle_time_microseconds                   default     1
+max_log_entries                              env. file   200
+memstat_autogen                              default     <null>
+mtn_warn_int                                 default     3
+named_locks                                  default     FALSE
+net_name                                     cmd line    Star-scenario1
+num_collect_values                           env. file   100
+num_err                                      default     10
+ot_file                                      env. file   Star-scenario1-DES-1
+ot_file.default_format                       default     write_many
+ot_mem_size                                  default     4
+ov_autogen                                   default     <null>
+ov_diff_tolerance                            default     5
+ov_file                                      env. file   Star-scenario1-DES-1
+ov_mem_size                                  default     16
+parallel_sim.event_execution_time_window     env. file   0
+parallel_sim.mutex_rank_ignore               default     FALSE
+per_module_random_stream                     default     FALSE
+probe                                        env. file   Star-scenario1
+probe_error_enable                           default     FALSE
+probe_start_time                             default     -1
+probe_stop_time                              default     -1
+prof_output                                  default     console
+prof_output_separator                        default     <null>
+prof_track_func                              default     <null>
+prof_track_recurse                           default     TRUE
+psnone_tda.bu.closure.closure                default     TRUE
+psnone_tda.bu.collision.num_colls            default     0
+psnone_tda.bu.ecc.pk_accept                  default     TRUE
+psnone_tda.bu.error.num_errors               default     0
+psnone_tda.bu.propdel.prop_delay             default     0
+psnone_tda.bu.txdel.tx_delay                 default     0
+psnone_tda.pt.ecc.pk_accept                  default     TRUE
+psnone_tda.pt.error.num_errors               default     0
+psnone_tda.pt.propdel.prop_delay             default     0
+psnone_tda.pt.txdel.tx_delay                 default     0
+psnone_tda.ra.ber.ber                        default     0
+psnone_tda.ra.bkgnoise.bkgnoise              default     0
+psnone_tda.ra.chanmatch.match_status         default     valid
+psnone_tda.ra.closure.closure                default     TRUE
+psnone_tda.ra.ecc.pk_accept                  default     TRUE
+psnone_tda.ra.error.actual_ber               default     0
+psnone_tda.ra.error.num_errors               default     0
+psnone_tda.ra.power.rcvd_power               default     -1
+psnone_tda.ra.propdel.end_propdel            default     0
+psnone_tda.ra.propdel.start_propdel          default     0
+psnone_tda.ra.ragain.rx_gain                 default     0
+psnone_tda.ra.snr.snr                        default     1000
+psnone_tda.ra.tagain.tx_gain                 default     0
+psnone_tda.ra.txdel.tx_delay                 default     0
+radio_transmission_defer_packet_duplication  default     TRUE
+radio_transmission_on_demand_receiver_groups default     FALSE
+rand_gen_type                                default     Linear-Congruential
+rand_num_ext_res                             default     TRUE
+raw_err                                      default     FALSE
+realtime_ratio                               env. file   0
+rec_err_suppress                             default     FALSE
+record_gstats                                default     FALSE
+repositories                                 env. file   stdmod
+script_mode                                  default     none
+script_name                                  default     odb_script
+seed                                         env. file   128
+sim_packet_sharing                           env. file   conservative
+sim_process_priority                         default     normal
+sim_time_quantum                             env. file   0
+site_position_cache_size                     env. file   3
+sitl_realtime_ratio_check                    default     TRUE
+sla_compute_all_violations                   default     FALSE
+split_start_radio_transmission               default     FALSE
+timezone                                     default     "Local Timezone"
+tmm_data_directory                           default     <obsolete>
+tmm_data_type                                default     "USGS DEM"
+tmm_display_degrees                          default     FALSE
+tmm_include_antenna_height                   default     FALSE
+tmm_load_as_needed                           default     TRUE
+tmm_pathloss_cache_size                      default     2
+tmm_prop_model                               default     <null>
+tmm_prop_param                               default     <null>
+tmm_propagation_specification                default     <null>
+tmm_propagation_zone_ratio                   default     0
+tmm_propagation_zone_resolution              default     100
+tmm_simulate                                 env. file   FALSE
+tmm_terrain_cache_size                       default     10
+tmm_terrain_specification                    default     <null>
+tmm_use_cache                                default     TRUE
+tmm_verbose                                  default     FALSE
+update_interval                              env. file   500000
+updates_in_seconds                           default     FALSE
+user_lock_devname                            default     <null>
+verbose_load                                 env. file   TRUE
+verbose_mk                                   default     FALSE
+verbose_sim                                  env. file   TRUE
+warning_suppress                             default     FALSE
