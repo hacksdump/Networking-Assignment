@@ -1,9 +1,13 @@
 # Problem 3
 
-a.  IP: 192.168.1.102
+## Harshit Maurya
+
+### 17114037
+
+a.  IP: 192.168.1.102  
     PORT: 1161
 
-b.  IP: 128.119.245.12
+b.  IP: 128.119.245.12  
     PORT: 80
 
 c.  Sequence number of the TCP SYN segment is used to initiate the TCP connection between the client computer and server. The value is 0 in this trace.
@@ -18,15 +22,9 @@ d.  Sequence number of the SYNACK segment from ser1 to the client computer in re
 
     The SYN flag and Acknowledgement flag in the segment are set to 1 and they indicate that this segment is a SYNACK segment.
 
-e.  No. 4 segment is the TCP segment containing the HTTP POST command.
+e.  No. 4 segment is the TCP segment containing the HTTP POST command. It's sequence no. is 1.
 
 f.  The HTTP POST segment is considered as the first segment. Segments 1 – 6 are No. 4, 5, 7, 8, 10, and 11 in this trace respectively. The ACKs of segments 1 – 6 are No. 6, 9, 12, 14, 15, and 16 in this trace.
-
-g.  Length of the first TCP segment (containing the HTTP POST): 619 bytes
-    Length of each of the other five TCP segments: 1514 bytes
-
-h.  The minimum amount of buffer space (receiver window) advertised at server for the entire trace is 5840 bytes, which shows in the first acknowledgement from the server.
-This receiver window grows steadily until a maximum receiver buffer size of 62780 bytes. The sender is never throttled due to lacking of receiver buffer space by inspecting this trace.
 
 
     EstimatedRTT = 0.875 * EstimatedRTT + 0.125 * SampleRTT
@@ -51,8 +49,13 @@ This receiver window grows steadily until a maximum receiver buffer size of 6278
 
 ![RTT  Graph](./images/rtt.png)
 
-i.  After turning on cumulative bytes, 
+g.  62, 62, 54, 619, 1514, 60
 
-    Total bytes = 177851
-    Total time = 7.6 sec
-    Throughput = 177851 / 7.6 / 1024 KBytes/sec = 22.85 KBytes/sec
+h.  The minimum amount of buffer space (receiver window) advertised at server for the entire trace is 5840 bytes, which shows in the first acknowledgement from the server.
+This receiver window grows steadily until a maximum receiver buffer size of 62780 bytes. The sender is never throttled due to lacking of receiver buffer space by inspecting this trace.
+
+i.  After turning on cumulative bytes,
+
+    Total transferred = 164091 - 1  = 164090 bytes
+    Time = 5.651141 - 0.026477 = 5.624664
+    Throughput = 164090 / 5.624664 = 29173.298 bytes = 28.4895 Kb

@@ -1,5 +1,5 @@
 "No.","Time","Source","Destination","Protocol","Length","Info"
-"1","*REF*","10.61.68.21","13.35.129.101","TCP","66","42642  >  443 [ACK] Seq=1 Ack=1 Win=501 Len=0 TSval=1168959611 TSecr=2244880280"
+"1","0","10.61.68.21","13.35.129.101","TCP","66","42642  >  443 [ACK] Seq=1 Ack=1 Win=501 Len=0 TSval=1168959611 TSecr=2244880280"
 "2","0.064068592","13.35.129.101","10.61.68.21","TCP","66","[TCP ACKed unseen segment] 443  >  42642 [ACK] Seq=1 Ack=2 Win=1007 Len=0 TSval=2244925390 TSecr=1168914611"
 "3","5.119979092","IntelCor_ee:09:17","IETF-VRRP-VRID_41","ARP","42","Who has 10.61.64.1? Tell 10.61.68.21"
 "4","5.125034343","IETF-VRRP-VRID_41","IntelCor_ee:09:17","ARP","60","10.61.64.1 is at 00:00:5e:00:01:41"
