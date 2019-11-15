@@ -2,3 +2,5 @@
 **/latex
 .vscode
 **/env
+**/encoded.txt
+**/output.txt
